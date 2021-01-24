@@ -7,10 +7,10 @@ class App extends React.Component{
     };
 
     add = () => {
-        this.setState(current => ({count: current.count + 1}));
+        this.setState(current => ({count: current.count + 1})); //use current when u r treating with the value inside the value
     };
     minus = () => {
-        this.setState(current => ({count: current.count - 1}));
+        this.setState(current => ({count: current.count - 1})); //use current when u r treating with the value inside the value
     };
 
     render (){
